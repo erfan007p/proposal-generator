@@ -10,16 +10,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dashevo/proposal-generator.git"
+    "url": "git+https://github.com/gobytecoin/proposal-generator.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dashevo/proposal-generator/issues"
+    "url": "https://github.com/gobytecoin/proposal-generator/issues"
   },
-  "homepage": "https://github.com/dashevo/proposal-generator#readme",
+  "homepage": "https://github.com/gobytecoin/proposal-generator#readme",
   "devDependencies": {
-    "@dashevo/dashcore-lib": "^0.16.8",
+    "@gobytecoin/gobytecore-lib": "https://github.com/erfan007p/gobytecore-lib.git",
     "browserify": "^16.2.3",
     "eslint": "^5.13.0"
   }

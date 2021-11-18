@@ -1,12 +1,12 @@
-var Bitcore = require('@dashevo/dashcore-lib');
+var Bitcore = require('@gobytecoin/gobytecore-lib');
 
 var socket;
 var paymentCycle;
 
-var mainnetProvider = 'https://insight.dashevo.org';
+var mainnetProvider = 'https://insight.gobyte.network';
 var mainnetPrefix = '/insight-api';
 
-var testnetProvider = 'https://testnet-insight.dashevo.org';
+var testnetProvider = 'https://testnet.gobyte.network';
 var testnetPrefix = '/insight-api';
 
 var init = function(network, provider, prefix) {
@@ -60,7 +60,7 @@ $(document).ready(function() {
     $('#end_epoch').change(function() {
         updateTotal();
     });
-    
+
     $('#payment_amount').on('input',function(){
       //As of now, core doesn't handle comma, but handle dots. Therefore we change it to the user.
       var payment_amount_value = $('#payment_amount').val();

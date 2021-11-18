@@ -45,10 +45,10 @@ node_modules
 
 # Debug log from npm
 npm-debug.log
-npm-debug.log.*dashpay/client/bundle.js
-dashpay/client/node_modules
-/client/dashpay-spa/node_modules/
-# Generated browserify build 
+npm-debug.log.*gobytepay/client/bundle.js
+gobytepay/client/node_modules
+/client/gobytepay-spa/node_modules/
+# Generated browserify build
 vendor/index.js
 
 # vars defined in .env
